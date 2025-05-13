@@ -1,0 +1,5 @@
+com\mycompany\baikiemtra\JakartaRestConfiguration.class
+com\example\todo\AuthFilter.class
+com\example\todo\TodoServlet.class
+com\example\todo\SessionAttributeListenerImpl.class
+com\mycompany\baikiemtra\resources\JakartaEE11Resource.class

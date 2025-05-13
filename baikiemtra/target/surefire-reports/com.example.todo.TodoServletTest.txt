@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.example.todo.TodoServletTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.096 s <<< FAILURE! -- in com.example.todo.TodoServletTest
+com.example.todo.TodoServletTest.testDoPost -- Time elapsed: 0.052 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "jakarta.servlet.http.HttpServletRequest.getSession()" because "request" is null
+	at com.example.todo.TodoServlet.doPost(TodoServlet.java:29)
+	at com.example.todo.TodoServletTest.testDoPost(TodoServletTest.java:50)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
